@@ -144,7 +144,18 @@
                 <target>1.8</target>
             </configuration>
         </plugin>
-    </plugins>
+    <plugins>
+        <plugin>
+            <groupId>some.group</groupId>
+            <artifactId>some-artifact</artifactId>
+            <version>1.0.0</version>
+            <configuration>
+                <!-- config -->
+            </configuration>
+        </plugin>
+        <!-- more plugins -->
+    </plugins> 
+   </plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
